@@ -1,0 +1,30 @@
+pkgbase = watcom-p2c
+	pkgdesc = Pascal-to-C translator front-end to Open Watcom (multi-target cross compiler)
+	pkgver = 1.21alpha2
+	pkgrel = 3
+	url = http://schneider.ncifcrf.gov/p2c/
+	arch = any
+	groups = watcom-linux
+	groups = watcom-win32
+	groups = watcom-win16
+	groups = watcom-dos
+	groups = watcom-os2
+	groups = watcom-netware
+	license = GPL
+	license = LGPL
+	makedepends = open_watcom-v2
+	depends = open_watcom-v2
+	depends = perl
+	options = !strip
+	options = !buildflags
+	options = staticlibs
+	options = emptydirs
+	source = http://schneider.ncifcrf.gov/p2c/p2c-1.21alpha2.tar.gz
+	source = ow_p2cc
+	source = pragma.patch
+	md5sums = 8340429ae80be2e0e82c01f70c0355bb
+	md5sums = 08a2b1ee790b53922fd741a3e3349009
+	md5sums = c11e95a9ffaa3747d5e22b72bffeadd8
+
+pkgname = watcom-p2c
+
